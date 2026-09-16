@@ -90,7 +90,9 @@ if __name__ == '__main__':
     client = Client(n_workers=5)
 
     try:
+        
 
+        # This is the annual file made from combining frac_depth_averaging.py outputs
         infile = (
         'ANNUAL_DEPTH_AVERAGED_FILE.nc'
         )
